@@ -10,4 +10,4 @@ Node-RED workflow will continously push the Image data to AWS on an interval of 
 Home assistant dashboard is configured to fetch data through MQTT topics from AWS IoT.These configurations are stored in YAML file contains topic name, encryption keys, credentials etc.
 
 ## Architecture
-![alt text](Images/AWS Challenge.jpg.jpg "Abstract view")
+![alt text](IoTHomeAutomation/Images/AWS Challenge.jpg "Abstract view")

@@ -16,4 +16,4 @@ Home assistant dashboard is configured to fetch data through MQTT topics from AW
 ![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/Node-RED.png)
 
 ## Dem0 - Dashboard
-![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/AWS Challenge - Demo.jpg.png)
+![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/AWS%20Challenge%20-%20Demo.jpg.png)

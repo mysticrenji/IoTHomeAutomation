@@ -14,15 +14,15 @@ There are few requirements for running Home Assistant. Since it runs most of the
 
 Please follow the below command to fullfill the requirements
 
-$ sudo apt-get install build-essential checkinstall
-$ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
-cd /usr/src
-$ wget https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz
-$ sudo tar xzf Python-3.5.2.tgz
-$ cd Python-3.5.2
-$ sudo ./configure
-$ sudo make altinstall
-$ sudo pip install paho-mqtt
+$ sudo apt-get install build-essential checkinstall <br>
+$ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev<br>
+cd /usr/src <br>
+$ wget https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz <br>
+$ sudo tar xzf Python-3.5.2.tgz <br>
+$ cd Python-3.5.2 <br>
+$ sudo ./configure <br>
+$ sudo make altinstall <br>
+$ sudo pip install paho-mqtt <br>
 
 After required libraries has been installed, use the guideline from Home Assistant website to install the same
 https://home-assistant.io/docs/installation/virtualenv/

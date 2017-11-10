@@ -9,6 +9,24 @@ Node-RED workflow will continously push the Image data to AWS on an interval of 
 
 Home assistant dashboard is configured to fetch data through MQTT topics from AWS IoT.These configurations are stored in YAML file contains topic name, encryption keys, credentials etc.
 
+## Installing Home Assistant
+There are few requirements for running Home Assistant. Since it runs most of the lib on python 3.4+ , its mandatory. Also Paho MQTT library.
+
+Please follow the below command to fullfill the requirements
+
+$ sudo apt-get install build-essential checkinstall
+$ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+cd /usr/src
+$ wget https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz
+$ sudo tar xzf Python-3.5.2.tgz
+$ cd Python-3.5.2
+$ sudo ./configure
+$ sudo make altinstall
+$ sudo pip install paho-mqtt
+
+After required libraries has been installed, use the guideline from Home Assistant website to install the same
+https://home-assistant.io/docs/installation/virtualenv/
+
 ## Architecture
 ![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/AWS%20Challenge.jpg)
 

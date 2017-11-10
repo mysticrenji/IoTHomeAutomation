@@ -15,5 +15,5 @@ Home assistant dashboard is configured to fetch data through MQTT topics from AW
 ## Node-RED Workflow at remote device
 ![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/Node-RED.png)
 
-## Dem0 - Dashboard
+## Demo - Dashboard
 ![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/AWS%20Challenge%20-%20Demo.jpg.png)

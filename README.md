@@ -16,7 +16,7 @@ Please follow the below command to fullfill the requirements
 
 $ sudo apt-get install build-essential checkinstall <br>
 $ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev<br>
-cd /usr/src <br>
+$ cd /usr/src <br>
 $ wget https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz <br>
 $ sudo tar xzf Python-3.5.2.tgz <br>
 $ cd Python-3.5.2 <br>

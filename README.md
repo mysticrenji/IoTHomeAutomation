@@ -1,5 +1,5 @@
 # IoTHomeAutomation
-Home Automation using AWS IoT integrated with Hassi.io dasboard
+Home Automation using AWS IoT integrated with Hass.io dasboard
 
 Developed a dashboard for Home Automation and monitoring, using Hass.io. For this project i used two raspberry pi's with one in remote location(India) integrated with Pi Camera and other local
 with DHT22 Sensors.AWS IoT SDK has been installed in both the devices.Also for capturing and pushing the live images through MQTT, installed and configured Node-RED JS in remote Pi.

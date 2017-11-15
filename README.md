@@ -27,6 +27,11 @@ $ sudo pip install paho-mqtt <br>
 After required libraries has been installed, use the guideline from Home Assistant website to install the same
 https://home-assistant.io/docs/installation/virtualenv/
 
+## Installing Node-RED in Raspberry Pi
+I followed the instructions from the Node-RED official website to do the installation. Its fairly straightforward. In my case i installed in the remote pi device.
+
+https://nodered.org/docs/hardware/raspberrypi
+
 ## Architecture
 ![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/AWS%20Challenge.jpg)
 
@@ -47,4 +52,4 @@ https://home-assistant.io/docs/installation/virtualenv/
 
 ![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/Demo3.png)
 
-![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/MQTT- Temp & Humid.png)
+![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/MQTT-%20Temp%20&%20Humid.png)

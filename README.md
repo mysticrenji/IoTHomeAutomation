@@ -34,8 +34,15 @@ https://home-assistant.io/docs/installation/virtualenv/
 ![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/Node-RED.png)
 
 ## Demo - Dashboard
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=Gy4r200BfIE"><img src="https://img.youtube.com/vi/Gy4r200BfIE/0.jpg" alt="AWS IoT Challenge"></a>
+</div>
+Youtube -> 
+
 ![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/AWS%20Challenge%20-%20Demo.jpg.png)
 
 ![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/Demo2.png)
 
 ![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/Demo3.png)
+

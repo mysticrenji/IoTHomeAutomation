@@ -47,3 +47,4 @@ https://home-assistant.io/docs/installation/virtualenv/
 
 ![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/Demo3.png)
 
+![](https://raw.githubusercontent.com/mysticrenji/IoTHomeAutomation/master/Images/MQTT- Temp & Humid.png)

@@ -35,9 +35,5 @@
   "docker-compose": {
     "enabled": true,
     "fileMatch": ["(^|/)docker-compose\\.ya?ml$"]
-  },
-  "python": {
-    "enabled": true,
-    "fileMatch": ["(^|/)pyproject\\.toml$", "(^|/)setup\\.py$"]
   }
 }

@@ -2,33 +2,27 @@
   "extends": [
     "config:base"
   ],
-  "automerge": true,  // Disable automerging by default
-  "automergeType": "pr",  // Use PR automerging when enabled
-  "dependencyDashboard": true,  // Enable dependency dashboard
-  "labels": ["dependencies"],  // Default labels for PRs
-  "prConcurrentLimit": 5,  // Limit the number of concurrent PRs
-  "prHourlyLimit": 5,  // Limit the number of PRs created per hour
+  "automerge": true,
+  "automergeType": "branch",
+  "automergeStrategy": "auto",
+  "branchPrefix": "renovate/",
+  "labels": ["dependencies"],
+  "prCreation": "immediate",
+  "dependencyDashboard": false,
   "packageRules": [
     {
-      "matchPackagePatterns": ["*"],  // Apply to all packages
-      "groupName": "all dependencies",  // Group all dependencies into a single PR
-      "schedule": ["at any time"]  // Allow updates at any time
+      "automerge": true,
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance"
+      ]
     }
   ],
-  "docker": {
-    "fileMatch": ["(^|/)Dockerfile$"]
-  },
-  "pip_requirements": {
-    "fileMatch": ["(^|/)requirements\\.txt$"]
-  },
-  "docker-compose": {
-    "fileMatch": ["(^|/)docker-compose\\.ya?ml$"]
-  },
-  "postUpgradeTasks": {
-    "commands": [
-      "pip install -r requirements.txt",  // Run this command after upgrading Python dependencies
-      "docker-compose build"  // Rebuild Docker images after upgrading dependencies
-    ],
-    "fileFilters": ["requirements.txt", "docker-compose.yml"]
-  }
+  "rebaseWhen": "conflicted",
+  "timezone": "UTC",
+  "platformAutomerge": true
 }
